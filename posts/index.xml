@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on DevinPK Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on DevinPK Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 May 2024 17:05:40 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>http://localhost:1313/posts/hello/</link>
+      <pubDate>Tue, 28 May 2024 17:05:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/hello/</guid>
+      <description>
+        
+          
+            学习 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Quickstart</title>
+      <link>http://localhost:1313/posts/quickstart/</link>
+      <pubDate>Tue, 28 May 2024 16:56:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/quickstart/</guid>
+      <description>
+        
+          
+            hello world by Hugo and
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
