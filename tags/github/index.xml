@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Devin PK Blog</title>
-    <link>https://devinpk.github.io/posts/</link>
-    <description>Recent content in Posts on Devin PK Blog</description>
+    <title>Github on Devin PK Blog</title>
+    <link>https://devinpk.github.io/tags/github/</link>
+    <description>Recent content in Github on Devin PK Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 May 2024 20:27:25 +0800</lastBuildDate><atom:link href="https://devinpk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 20:27:25 +0800</lastBuildDate><atom:link href="https://devinpk.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用 hugo 并部署到 github pages</title>
       <link>https://devinpk.github.io/posts/hugo_github_pages/</link>
