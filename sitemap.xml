@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://devinpk.github.io/tags/ai/</loc>
+    <lastmod>2024-05-29T15:49:22+08:00</lastmod>
+  </url><url>
     <loc>https://devinpk.github.io/</loc>
-    <lastmod>2024-05-28T20:27:25+08:00</lastmod>
+    <lastmod>2024-05-29T15:49:22+08:00</lastmod>
+  </url><url>
+    <loc>https://devinpk.github.io/tags/llama3/</loc>
+    <lastmod>2024-05-29T15:49:22+08:00</lastmod>
+  </url><url>
+    <loc>https://devinpk.github.io/tags/ollama/</loc>
+    <lastmod>2024-05-29T15:49:22+08:00</lastmod>
+  </url><url>
+    <loc>https://devinpk.github.io/posts/</loc>
+    <lastmod>2024-05-29T15:49:22+08:00</lastmod>
+  </url><url>
+    <loc>https://devinpk.github.io/tags/</loc>
+    <lastmod>2024-05-29T15:49:22+08:00</lastmod>
+  </url><url>
+    <loc>https://devinpk.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2024-05-29T15:49:22+08:00</lastmod>
+  </url><url>
+    <loc>https://devinpk.github.io/posts/ai_local_install/</loc>
+    <lastmod>2024-05-29T15:49:22+08:00</lastmod>
   </url><url>
     <loc>https://devinpk.github.io/tags/github/</loc>
     <lastmod>2024-05-28T20:27:25+08:00</lastmod>
@@ -12,12 +33,6 @@
     <lastmod>2024-05-28T20:27:25+08:00</lastmod>
   </url><url>
     <loc>https://devinpk.github.io/tags/pages/</loc>
-    <lastmod>2024-05-28T20:27:25+08:00</lastmod>
-  </url><url>
-    <loc>https://devinpk.github.io/posts/</loc>
-    <lastmod>2024-05-28T20:27:25+08:00</lastmod>
-  </url><url>
-    <loc>https://devinpk.github.io/tags/</loc>
     <lastmod>2024-05-28T20:27:25+08:00</lastmod>
   </url><url>
     <loc>https://devinpk.github.io/posts/hugo_github_pages/</loc>

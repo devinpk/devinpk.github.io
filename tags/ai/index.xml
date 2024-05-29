@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devin PK Blog</title>
-    <link>https://devinpk.github.io/</link>
-    <description>Recent content on Devin PK Blog</description>
+    <title>AI on Devin PK Blog</title>
+    <link>https://devinpk.github.io/tags/ai/</link>
+    <description>Recent content in AI on Devin PK Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 May 2024 15:49:22 +0800</lastBuildDate><atom:link href="https://devinpk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 May 2024 15:49:22 +0800</lastBuildDate><atom:link href="https://devinpk.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何在本地运行AI大模型</title>
       <link>https://devinpk.github.io/posts/ai_local_install/</link>
@@ -18,22 +18,6 @@
           
             如何在本地运行AI大模型 硬件需求 cpu: mac m1 pro 内存：&amp;gt; 16GB 硬盘：256 GB 普通intel 8core cpu也可以流畅运行 快速开始 安装ollama 下载大模型 ollama pull llama3:latest
 启动AI对话 使用open ui对话 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>如何使用 hugo 并部署到 github pages</title>
-      <link>https://devinpk.github.io/posts/hugo_github_pages/</link>
-      <pubDate>Tue, 28 May 2024 20:27:25 +0800</pubDate>
-      
-      <guid>https://devinpk.github.io/posts/hugo_github_pages/</guid>
-      <description>
-        
-          
-            如何使用 hugo 并部署到github pages 前提条件 准备一个github account 安装 hugo 
           
           
         
