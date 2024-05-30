@@ -22,16 +22,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="如何在本地运行AI大模型 硬件需求 cpu: mac m1 pro 内存：&gt; 16GB 硬盘：256 GB 普通intel 8core cpu也可以流畅运行 快速开始 安装ollama 下载大模型 ollama pull llama3:latest
-启动AI对话 使用open ui对话 " />
+<meta name="description" content="如何在本地运行AI大模型 硬件需求 cpu: mac m1 pro 内存：&gt; 16GB 硬盘：256 GB 普通intel 8core cpu也可以流畅运行 快速开始 安装ollama curl -fsSL https://ollama.com/install.sh | sh 下载大模型 ollama pull …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@devinpk">
 <meta name="twitter:title" content="如何在本地运行AI大模型" />
 <meta name="twitter:image" content="https://devinpk.github.io/images/thumbnail.png"/>
 <meta property="og:url" content="https://devinpk.github.io/posts/ai_local_install/" />
 <meta property="og:title" content="如何在本地运行AI大模型" />
-<meta property="og:description" content="如何在本地运行AI大模型 硬件需求 cpu: mac m1 pro 内存：&gt; 16GB 硬盘：256 GB 普通intel 8core cpu也可以流畅运行 快速开始 安装ollama 下载大模型 ollama pull llama3:latest
-启动AI对话 使用open ui对话 " />
+<meta property="og:description" content="如何在本地运行AI大模型 硬件需求 cpu: mac m1 pro 内存：&gt; 16GB 硬盘：256 GB 普通intel 8core cpu也可以流畅运行 快速开始 安装ollama curl -fsSL https://ollama.com/install.sh | sh 下载大模型 ollama pull …" />
 <meta property="og:image" content="https://devinpk.github.io/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://devinpk.github.io/icons/apple-touch-icon.png">
@@ -204,11 +202,17 @@
 </ul>
 <h2 id="快速开始">快速开始</h2>
 <h3 id="安装ollama">安装ollama</h3>
-<h3 id="下载大模型">下载大模型</h3>
-<p>ollama pull llama3:latest</p>
-<h3 id="启动ai对话">启动AI对话</h3>
-<h3 id="使用open-ui对话">使用open ui对话</h3>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -fsSL https://ollama.com/install.sh | sh
+</span></span></code></pre></div><h3 id="下载大模型">下载大模型</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama pull llama3
+</span></span></code></pre></div><h3 id="启动ai对话">启动AI对话</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama run llama3
+</span></span></code></pre></div><h3 id="使用open-ui对话">使用open ui对话</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -d -p 3000:8080 --add-host<span style="color:#f92672">=</span>host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 打开web对话</span>
+</span></span><span style="display:flex;"><span>open http://localhost:3000
+</span></span></code></pre></div>
     </div>
 
 <script src="https://giscus.app/client.js"
